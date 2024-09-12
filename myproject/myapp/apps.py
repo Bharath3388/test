@@ -6,3 +6,6 @@ class MyappConfig(AppConfig):
 
     def ready(self):
         import myapp.signals 
+        import myapp.signals1
+        import myapp.signals2
+        import myapp.rectangle

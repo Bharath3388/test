@@ -21,5 +21,8 @@ from myapp import views
 urlpatterns = [
     path("admin/", admin.site.urls),
     path('trigger-signal/', views.trigger_signal_view, name='trigger_signal'),
+    path('trigger-signal1/', views.trigger_signal_view1, name='trigger_signal1'),
+    path('trigger-signal2/', views.trigger_signal_view2, name='trigger_signal1'),
 ]
+
 
